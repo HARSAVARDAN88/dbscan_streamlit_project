@@ -1,9 +1,13 @@
+import matplotlib
+matplotlib.use("Agg")
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+
 
 # Page title
 st.title("DBSCAN Clustering App")
